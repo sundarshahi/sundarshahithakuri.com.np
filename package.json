@@ -16,6 +16,7 @@
     "dev": "yarn refresh && next dev",
     "build": "yarn refresh && next build",
     "start": "next start",
+    "export": "next export",
     "type-check": "tsc",
     "lint": "prettier --write '**/*.{js,json,css,md,tsx,ts}'",
     "release": "release-it",

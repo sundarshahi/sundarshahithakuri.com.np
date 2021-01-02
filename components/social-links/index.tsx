@@ -30,7 +30,7 @@ const SocialLinks: FC = () => {
             <_Link
               py={2}
               px={4}
-              href="https://github.com/ghoshnirmalya"
+              href="https://github.com/sundarshahi"
               rounded="md"
               bg="#333"
               color="#fff"
@@ -44,7 +44,7 @@ const SocialLinks: FC = () => {
             <_Link
               py={2}
               px={4}
-              href="https://www.linkedin.com/in/ghoshnirmalya/"
+              href="https://np.linkedin.com/in/sundarshahi"
               rounded="md"
               bg="#0e76a8"
               color="#fff"

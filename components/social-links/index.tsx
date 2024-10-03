@@ -21,7 +21,16 @@ const SocialLinks: FC = () => {
         <Box d="flex" alignItems="center">
           <Link href="/">
             <_Link href="/" rounded="md">
-              <Image src="/images/common/favicon.png" alt="Logo" size={8} />
+              <Image
+                src="/images/common/favicon.png"
+                alt="Logo"
+                width={100}
+                mx="auto"
+                bg={cardColor[colorMode]}
+                color={cardBgColor[colorMode]}
+                rounded="full"
+                p={1}
+              />
             </_Link>
           </Link>
         </Box>

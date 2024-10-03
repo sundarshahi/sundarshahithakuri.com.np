@@ -14,6 +14,9 @@ const SocialLinks: FC = () => {
   const sectionBgColor = { light: "gray.100", dark: "gray.900" };
   const sectionColor = { light: "gray.900", dark: "gray.100" };
 
+  const cardBgColor = { light: "white", dark: "gray.900" };
+  const cardColor = { light: "gray.900", dark: "white" };
+
   return (
     <Box
       bg={sectionBgColor[colorMode]}
@@ -30,8 +33,12 @@ const SocialLinks: FC = () => {
                   <Image
                     src="/images/common/favicon.png"
                     alt="Logo"
-                    size={8}
+                    width={100}
                     mx="auto"
+                    bg={cardColor[colorMode]}
+                    color={cardBgColor[colorMode]}
+                    rounded="full"
+                    p={1}
                   />
                 </_Link>
               </Link>

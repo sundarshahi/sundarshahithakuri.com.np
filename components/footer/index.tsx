@@ -37,13 +37,13 @@ const SocialLinks: FC = () => {
               </Link>
             </Box>
             <Box>
-              <_Link href="https://github.com/ghoshnirmalya/nirmalyaghosh.com">
+              <_Link href="https://github.com/sundarshahi">
                 Source code on Github
               </_Link>
             </Box>
             <Box>
               <Text>
-                Copyright &copy; {new Date().getFullYear()} Nirmalya Ghosh
+                Copyright &copy; {new Date().getFullYear()} Sundar Shahi Thakuri
               </Text>
             </Box>
           </Stack>

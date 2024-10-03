@@ -24,8 +24,8 @@ const Page: FC = () => {
           <Image
             objectFit="cover"
             src="/images/common/sundar.jpeg"
-            alt="Nirmalya Ghosh"
-            size={20}
+            alt="Sundar Shahi Thakuri"
+            width={150}
             bg={cardColor[colorMode]}
             color={cardBgColor[colorMode]}
             rounded="full"
@@ -89,7 +89,7 @@ const Page: FC = () => {
             <Link
               py={2}
               px={4}
-              href="https://github.com/ghoshnirmalya"
+              href="https://github.com/sundarshahi"
               rounded="md"
               bg="#333"
               color="#fff"
@@ -103,7 +103,7 @@ const Page: FC = () => {
             <Link
               py={2}
               px={4}
-              href="https://www.linkedin.com/in/ghoshnirmalya/"
+              href="https://www.linkedin.com/in/sundarshahi/"
               rounded="md"
               bg="#0e76a8"
               color="#fff"

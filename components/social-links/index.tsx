@@ -24,7 +24,7 @@ const SocialLinks: FC = () => {
               <Image
                 src="/images/common/favicon.png"
                 alt="Logo"
-                width={100}
+                width={50}
                 mx="auto"
                 bg={cardColor[colorMode]}
                 color={cardBgColor[colorMode]}

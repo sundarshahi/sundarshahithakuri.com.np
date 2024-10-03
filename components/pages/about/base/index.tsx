@@ -23,7 +23,7 @@ const Page: FC = () => {
         <Box>
           <Image
             objectFit="cover"
-            src="/images/common/avatar.png"
+            src="/images/common/sundar.jpeg"
             alt="Nirmalya Ghosh"
             size={20}
             bg={cardColor[colorMode]}
@@ -35,7 +35,7 @@ const Page: FC = () => {
         <Box>
           <Stack spacing={2}>
             <Heading as="h1" size="xl">
-              Nirmalya Ghosh
+              Sundar Shahi Thakuri
             </Heading>
             <Text>A little bit about me</Text>
           </Stack>

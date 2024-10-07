@@ -59,6 +59,10 @@ export default class MyApp extends App {
       <Layout>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="google-adsense-account"
+            content="ca-pub-4772470066841143"
+          ></meta>
           <link rel="icon" href={siteConfig.assets.favicon} type="image/png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif:wght@700&display=swap"
